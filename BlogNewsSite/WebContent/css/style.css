@@ -128,6 +128,41 @@ body {
 .box5 {padding-top: 15px;
 		padding-bottom: 15px;}
 
+@media (max-width: 599px) {
+.menu li a {padding: 10px 3px;
+			font-size: 11px;}
+.site h1 {font-size: 20px;}
+.kiji h1 {font-size: 26px;}
+
+.box1 {padding-top: 4px;
+		padding-bottom: 4px;}
+.box3 {padding-top: 25px;}
+
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+.box4:after {content: "";
+			display: block;
+			clear: both;}
+
+.box4-1 {float:left;
+		width: 50%;}
+
+.box4-2 {float:left;
+		width: 50%;}
+
+.box4-1 {padding-right: 20px;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;}
+
+.box4-2 {padding-left: 20px;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;}
+
+}
+
 @media (min-width: 768px) {
 /* ボックスのレイアウトです。 */
 .boxA:after {content: "";
@@ -139,11 +174,17 @@ body {
 
 .box4 {float: left;
 		width: 30%;}
-	}
 
 .box3 {padding-right: 50px;
 		box-sizing: border-box;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;}
 
+}
+
+@media (min-width: 1040px) {
+.box1, .box2, .boxA, .box5
+	{width: 1000px;
+	margin-left: auto;
+	margin-right: auto;}
 }
