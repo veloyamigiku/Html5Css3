@@ -44,6 +44,13 @@ body {
 .kiji img {max-width: 100%;
 			height: auto;}
 
+.kijiinfo {margin-top: -10px;
+			margin-bottom: 20px;}
+
+.kijiinfo i {margin-right: 5px;
+			color: #aaaaaa;
+			font-size: 20px;}
+
 /* パーツ(サイドメニュー)のスタイルです。 */
 .sidemenu {margin-bottom: 30px;}
 
