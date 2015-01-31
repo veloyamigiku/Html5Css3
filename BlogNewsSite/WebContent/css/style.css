@@ -44,11 +44,13 @@ body {
 .kiji img {max-width: 100%;
 			height: auto;}
 
+/* パーツ(記事の小見出し)のスタイルです。 */
 .kiji h2 {margin-top: 40px;
 		padding-left: 10px;
 		border-left: solid 10px #7cbac1;
 		font-weight: normal;}
 
+/* パーツ(投稿日)のスタイルです。 */
 .kijiinfo {margin-top: -10px;
 			margin-bottom: 20px;}
 
@@ -56,6 +58,7 @@ body {
 			color: #aaaaaa;
 			font-size: 20px;}
 
+/* パーツ(記事の分類)のスタイルです。 */
 .kijicat {margin-bottom: 25px;}
 
 .kijicat ul {margin: 0;
@@ -166,6 +169,7 @@ body {
 .box5 {padding-top: 15px;
 		padding-bottom: 15px;}
 
+/* 以下はレスポンシブWebデザインの設定です。 */
 @media (max-width: 599px) {
 .menu li a {padding: 10px 3px;
 			font-size: 11px;}
