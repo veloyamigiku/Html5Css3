@@ -105,6 +105,9 @@ body {
 			color: #666666;
 			font-size: 18px;}
 
+.sidemenu i {margin-right: 5px;
+			color: #888888;}
+
 /* パーツ(サイドメニュー)のスタイルです。 */
 .osusume {margin-bottom: 30px;}
 
