@@ -44,6 +44,11 @@ body {
 .kiji img {max-width: 100%;
 			height: auto;}
 
+.kiji h2 {margin-top: 40px;
+		padding-left: 10px;
+		border-left: solid 10px #7cbac1;
+		font-weight: normal;}
+
 .kijiinfo {margin-top: -10px;
 			margin-bottom: 20px;}
 
