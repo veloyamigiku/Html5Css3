@@ -292,6 +292,34 @@ body {
 
 .more i {margin-left: 10px;}
 
+/* パーツ(ページネーション)のスタイルです。 */
+.pagenation {text-align: center;}
+
+.pagenation ul {display: inline-block;
+				margin: 0;
+				padding: 0;
+				list-style: none;}
+
+.pagenation li a {display: block;
+				margin-left: 5px;
+				margin-right 5px;
+				padding: 5px 10px;
+				border: solid 1px #aaaaaa;
+				color: #000000;
+				font-size: 14px;
+				text-decoration: none;}
+
+.pagenation li a.active {background-color: #cccccc;}
+
+.pagenation li a:hover {background-color: #eeeeee;}
+
+.pagenation ul:after {content: "";
+					display: block;
+					clear: both;}
+
+.pagenation li {float: left;
+				width: auto;}
+
 /* パーツ(コピーライト)のスタイルです。 */
 .copyright p {margin: 0;
 			color: #666666;
