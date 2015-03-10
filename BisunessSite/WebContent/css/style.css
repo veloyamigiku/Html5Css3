@@ -3,3 +3,17 @@
 body {
 	font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
 }
+
+/* ブラウザ横のサイズが768px以上の設定です。 */
+@media (min-width: 768px) {
+/* box1とbox2を横に並べる設定です。 */
+.boxA:after {content: "";
+			display: block;
+			clear: both;}
+
+.box1 {float: left;
+		width: 50%;}
+
+.box2 {float: left;
+		width: 50%;}
+}
