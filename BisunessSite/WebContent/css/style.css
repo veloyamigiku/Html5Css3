@@ -4,6 +4,66 @@ body {
 	font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
 }
 
+/* サイト名 */
+.site h1 a {color: #000000;
+			text-decoration: none;}
+
+.site h1 {margin: 0;
+			font-size: 30px;}
+
+/* ナビゲーション */
+.menu ul {margin: 0;
+			padding: 0;
+			list-style: none;}
+
+.menu li a {display: block;
+			padding: 5px;
+			color: #000000;
+			font-size: 14px;
+			text-decoration: none;}
+
+.menu li a:hover {background-color: #eeeeee;}
+
+.menu ul:after {display:block;
+				content: "";
+				clear: both;}
+
+.menu li {float: left;
+		width: auto;}
+
+/* ヘッダ画像 */
+.topimg {max-width: 100%;
+		height: auto;
+		vertical-align: bottom;}
+
+/* お知らせ */
+.news ul {margin: 0;
+			padding: 0;
+			list-style: none;}
+
+.news li a {display: block;
+			padding: 5px;
+			border-bottom: dotted 2px #dddddd;
+			color: #000000;
+			font-size: 14px;
+			text-decoration: none;}
+
+.news li a:hover {background-color: #eeeeee;}
+
+.news time {margin-right: 10px;
+			color: #888888;
+			font-weight: bold;}
+
+.news h1 {margin-top: 0;
+			margin-bottom: 5px;
+			font-size: 18px;
+			color: #666666;}
+
+/* コピーライト */
+.copyright p {margin: 0;
+				color: #666666;
+				font-size: 14px;}
+
 /* ブラウザ横のサイズが768px以上の設定です。 */
 @media (min-width: 768px) {
 /* box1とbox2を横に並べる設定です。 */
