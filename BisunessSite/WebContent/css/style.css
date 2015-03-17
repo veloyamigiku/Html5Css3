@@ -1,6 +1,7 @@
 @CHARSET "UTF-8";
 
 body {
+	margin: 0;
 	font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
 }
 
@@ -17,7 +18,7 @@ body {
 			list-style: none;}
 
 .menu li a {display: block;
-			padding: 5px;
+			padding: 10px 15px;
 			color: #000000;
 			font-size: 14px;
 			text-decoration: none;}
@@ -64,6 +65,21 @@ body {
 				color: #666666;
 				font-size: 14px;}
 
+.box5 {padding-top: 15px;
+		padding-bottom: 15px;
+		background-color: #dddddd;}
+
+/* ボックスの左右 */
+.boxA, .box4, .box5 {padding-left: 15px;
+					padding-right: 15px;}
+
+/* ボックスの上下 */
+.boxA {padding-top: 20px;
+		padding-bottom: 20px;}
+
+.box4 {padding-top: 20px;
+		padding-bottom: 20px;}
+
 /* ブラウザ横のサイズが768px以上の設定です。 */
 @media (min-width: 768px) {
 /* box1とbox2を横に並べる設定です。 */
@@ -72,8 +88,8 @@ body {
 			clear: both;}
 
 .box1 {float: left;
-		width: 50%;}
+		width: auto;}
 
-.box2 {float: left;
-		width: 50%;}
+.box2 {float: right;
+		width: auto;}
 }
