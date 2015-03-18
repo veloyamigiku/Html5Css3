@@ -51,14 +51,24 @@ body {
 
 .news li a:hover {background-color: #eeeeee;}
 
-.news time {margin-right: 10px;
-			color: #888888;
+.news time {color: #888888;
 			font-weight: bold;}
 
 .news h1 {margin-top: 0;
 			margin-bottom: 5px;
 			font-size: 18px;
 			color: #666666;}
+
+.news a:after {content: "";
+				display: block;
+				clear: both;}
+
+.news time {float: left;
+			width: 60px;}
+
+.news .text {float: none;
+			width: auto;
+			margin-left: 60px;}
 
 /* コピーライト */
 .copyright p {margin: 0;
@@ -80,6 +90,15 @@ body {
 .box4 {padding-top: 20px;
 		padding-bottom: 20px;}
 
+/* 599px以下 */
+@media (max-width: 599px) {
+
+/*  ナビゲーション */
+.menu li a {padding: 10px 7px;
+			font-size: 11px;}
+
+}
+
 /* ブラウザ横のサイズが768px以上の設定です。 */
 @media (min-width: 768px) {
 /* box1とbox2を横に並べる設定です。 */
@@ -92,4 +111,17 @@ body {
 
 .box2 {float: right;
 		width: auto;}
+}
+
+/* 1190px以上 */
+@media(min-width: 1190px) {
+
+/* 全体の横幅を固定 */
+.box3, .box4, .boxA-inner, .box5-inner {width: 1140px;
+										margin-left: auto;
+										margin-right: auto;}
+
+/* BOXAの下に罫線を挿入 */
+.boxA {margin-bottom: 20px;
+		border-bottom: solid 1px #dddddd;}
 }
