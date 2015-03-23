@@ -12,6 +12,8 @@ body {
 .site h1 {margin: 0;
 			font-size: 30px;}
 
+.site img {border: none;}
+
 /* ナビゲーション */
 .menu ul {margin: 0;
 			padding: 0;
@@ -38,6 +40,9 @@ body {
 		vertical-align: bottom;}
 
 /* お知らせ */
+.news {padding: 20px;
+		border: solid 5px #dddddd;}
+
 .news ul {margin: 0;
 			padding: 0;
 			list-style: none;}
@@ -70,6 +75,31 @@ body {
 			width: auto;
 			margin-left: 60px;}
 
+/* SNSメニュー */
+.follow ul {margin: 0;
+			padding: 0;
+			list-style: none;}
+
+.follow li a {display: block;
+			margin-bottom: 10px;
+			padding: 10px;
+			border-radius: 4px;
+			color: #ffffff;
+			font-size: 14px;
+			text-decoration: none;}
+
+.follow li a:hover {opacity: 0.8;}
+
+.follow-tw {background-color: #65bafb;}
+
+.follow-fb {background-color: #5288f7;}
+
+.follow-gp {background-color: #f65d4a;}
+
+.follow i {margin-right: 10px;
+			font-size: 24px;
+			vertical-align: middle;ß}
+
 /* コピーライト */
 .copyright p {margin: 0;
 				color: #666666;
@@ -89,6 +119,8 @@ body {
 
 .box4 {padding-top: 20px;
 		padding-bottom: 20px;}
+
+.box4-1 {padding-bottom: 20px;}
 
 /* 599px以下 */
 @media (max-width: 599px) {
@@ -111,6 +143,21 @@ body {
 
 .box2 {float: right;
 		width: auto;}
+
+.box4:after {content: "";
+			display: block;
+			clear: both;}
+
+.box4-1 {float: left;
+		width: 70%;
+		padding-right: 35px;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;}
+
+.box4-2 {float: left;
+		width: 30%;}
+
 }
 
 /* 1190px以上 */
