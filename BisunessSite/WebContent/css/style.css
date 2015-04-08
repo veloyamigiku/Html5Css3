@@ -39,6 +39,40 @@ body {
 		height: auto;
 		vertical-align: bottom;}
 
+/* 概要のスタイルです。 */
+.gaiyou a {display: block;
+			background-color: #222222;
+			color: #ffffff;
+			text-align: center;
+			text-decoration: none;}
+	
+.gaiyou a:hover {opacity: 0.8;}
+
+.gaiyou i {display: block;
+			padding-top: 40px;
+			padding-bottom: 40px;
+			font-size: 38px;}
+
+.gaiyou .fa-database {background-color: #bfbd13;}
+
+.gaiyou .fa-bar-chart-o {background-color: #c58839;}
+
+.gaiyou .fa-envelope {background-color: #859f46;}
+
+.gaiyou h1 {margin-top: 0;
+			margin-bottom: 0;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			font-size: 20px;
+			font-weight: normal;}
+
+.gaiyou p {margin-top: 0;
+			margin-bottom: 0;
+			padding-top: 15px;
+			padding-bottom: 15px;
+			background-color: #524e3c;
+			font-size: 12px;}
+
 /* お知らせ */
 .news {padding: 20px;
 		border: solid 5px #dddddd;}
@@ -134,8 +168,8 @@ body {
 		background-color: #dddddd;}
 
 /* ボックスの左右 */
-.boxA, .box4, .box5 {padding-left: 15px;
-					padding-right: 15px;}
+.boxA, .box4, .box5, .box6 {padding-left: 15px;
+							padding-right: 15px;}
 
 /* ボックスの上下 */
 .boxA {padding-top: 20px;
@@ -145,6 +179,10 @@ body {
 		padding-bottom: 20px;}
 
 .box4-1 {padding-bottom: 20px;}
+
+.box6 {padding-top: 20px;}
+
+.box6-1, .box6-2, .box6-3 {padding-bottom: 10px;}
 
 /* 599px以下 */
 @media (max-width: 599px) {
@@ -168,6 +206,22 @@ body {
 .box2 {float: right;
 		width: auto;}
 
+/* BOX6-1,BOX6-2,BOX6-3を横に並べる設定です。 */
+.box6:after {content: "";
+			display: block;
+			clear: both;}
+
+.box6-1 {float: left;
+		width: 32%;
+		margin-right: 2%;}
+
+.box6-2 {float: left;
+		width: 32%;
+		margin-right: 2%;}
+		
+.box6-3 {float: left;
+		width: 32%;}
+
 .box4:after {content: "";
 			display: block;
 			clear: both;}
@@ -188,9 +242,9 @@ body {
 @media(min-width: 1190px) {
 
 /* 全体の横幅を固定 */
-.box3, .box4, .boxA-inner, .box5-inner {width: 1140px;
-										margin-left: auto;
-										margin-right: auto;}
+.box3, .box4, .boxA-inner, .box5-inner, .box6 {width: 1140px;
+												margin-left: auto;
+												margin-right: auto;}
 
 /* BOXAの下に罫線を挿入 */
 .boxA {margin-bottom: 20px;
