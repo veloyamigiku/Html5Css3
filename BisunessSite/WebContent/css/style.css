@@ -39,6 +39,19 @@ body {
 		height: auto;
 		vertical-align: bottom;}
 
+/* キャッチコピーのスタイルです。 */
+.catch {margin: 0;
+		padding: 15px;
+		background-color: rgba(255, 255, 255, 0.7);
+		font-size: 28px;}
+
+/* ヘッダー画像にキャッチコピーを重ねる */
+.top {position: relative;}
+
+.catch {position: absolute;
+		bottom: 7%;
+		left: 3%;}
+
 /* 概要のスタイルです。 */
 .gaiyou a {display: block;
 			background-color: #222222;
@@ -190,6 +203,10 @@ body {
 /*  ナビゲーション */
 .menu li a {padding: 10px 7px;
 			font-size: 11px;}
+
+/* キャッチコピーのスタイルです。 */
+.catch {padding: 5px 10px;
+		font-size: 12px;}
 
 }
 
