@@ -14,26 +14,6 @@ body {
 
 .site img {border: none;}
 
-/* ナビゲーション */
-.menu ul {margin: 0;
-			padding: 0;
-			list-style: none;}
-
-.menu li a {display: block;
-			padding: 10px 15px;
-			color: #000000;
-			font-size: 14px;
-			text-decoration: none;}
-
-.menu li a:hover {background-color: #eeeeee;}
-
-.menu ul:after {display:block;
-				content: "";
-				clear: both;}
-
-.menu li {float: left;
-		width: auto;}
-
 /* ヘッダ画像 */
 .topimg {max-width: 100%;
 		height: auto;
@@ -210,8 +190,46 @@ body {
 
 }
 
+/* ブラウザ横のサイズが767px以下の設定です。 */
+@media (max-width: 767px) {
+/* ナビゲーションメニュー(縦並び)のスタイルです。 */
+.menu ul {margin: 0;
+			padding: 0;
+			list-style: none;}
+
+.menu li a {display: block;
+			padding: 5px;
+			color: #000000;
+			font-size: 14px;
+			text-decoration: none;}
+
+.menu li a:hover {background-color: #eeeeee;}
+
+}
+
 /* ブラウザ横のサイズが768px以上の設定です。 */
 @media (min-width: 768px) {
+
+/* ナビゲーション */
+.menu ul {margin: 0;
+			padding: 0;
+			list-style: none;}
+
+.menu li a {display: block;
+			padding: 10px 15px;
+			color: #000000;
+			font-size: 14px;
+			text-decoration: none;}
+
+.menu li a:hover {background-color: #eeeeee;}
+
+.menu ul:after {display:block;
+				content: "";
+				clear: both;}
+
+.menu li {float: left;
+		width: auto;}
+
 /* box1とbox2を横に並べる設定です。 */
 .boxA:after {content: "";
 			display: block;
