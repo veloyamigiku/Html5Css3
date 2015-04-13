@@ -159,6 +159,19 @@ body {
 .kiji p {margin-top: 0;
 			margin-bottom: 20px;}
 
+/* サイドメニューのスタイルです。 */
+.sidemenu ul {margin: 0;
+				padding: 0;
+				list-style: none;}
+
+.sidemenu li a {display: block;
+				padding: 5px;
+				color: #000000;
+				font-size: 14px;
+				text-decoration: none;}
+
+.sidemenu li a:hover {background-color: #eeeeee;}
+
 /* コピーライト */
 .copyright p {margin: 0;
 				color: #666666;
@@ -306,6 +319,21 @@ body {
 		
 .box6-3 {float: left;
 		width: 32%;}
+
+/* BOX7-1とBOX7-2を横に並べる設定です。 */
+.box7:after {content: "";
+			display: block;
+			clear: both;}
+
+.box7-1 {float: right;
+		width: 80%;
+		padding-left: 50px;
+		-webkit-box-sizing: border-box;
+		-moz-box_sizing: border-box;
+		box-sizing: border-box;}
+
+.box7-2 {float: left;
+		width: 20%;}
 
 .box4:after {content: "";
 			display: block;
