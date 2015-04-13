@@ -154,9 +154,30 @@ body {
 /* 記事のスタイルです。 */
 .kiji h1 {margin-top: 0;
 			margin-bottom: 20px;
-			font-size: 36px;}
+			padding-left: 20px;
+			border-left: solid 20px #c50018;
+			font-size: 36px;
+			font-weight: normal;}
 
-.kiji p {margin-top: 0;
+.kiji .lead {max-width: 100%;
+			font-size: 20px;
+			color: #666666;}
+
+.kijiimg {max-width: 100%;
+			height: auto;
+			margin-bottom: 20px;}
+
+.kiji h2 {margin-top: 50px;
+			margin-bottom: 20px;
+			border-bottom: solid 1px #dddddd;
+			font-size: 28px;
+			font-weight: normal;}
+
+.kiji i {margin-right: 7px;
+			color: #888888;}
+
+.kiji p {max-width: 640px;
+			margin-top: 0;
 			margin-bottom: 20px;}
 
 /* サイドメニューのスタイルです。 */
@@ -223,6 +244,12 @@ body {
 /* キャッチコピーのスタイルです。 */
 .catch {padding: 5px 10px;
 		font-size: 12px;}
+
+.kiji h1 {font-size: 26px;}
+
+.kiji .lead {font-size: 16px;}
+
+.kiji h2 {font-size: 20px;}
 
 }
 
