@@ -193,6 +193,8 @@ body {
 /* ブラウザ横のサイズが767px以下の設定です。 */
 @media (max-width: 767px) {
 /* ナビゲーションメニュー(縦並び)のスタイルです。 */
+#menu {display: none;}
+
 .menu ul {margin: 0;
 			padding: 0;
 			list-style: none;}
@@ -210,7 +212,11 @@ body {
 /* ブラウザ横のサイズが768px以上の設定です。 */
 @media (min-width: 768px) {
 
+#menubtn {display: none;}
+
 /* ナビゲーション */
+#menu {display: block !important;}
+
 .menu ul {margin: 0;
 			padding: 0;
 			list-style: none;}
