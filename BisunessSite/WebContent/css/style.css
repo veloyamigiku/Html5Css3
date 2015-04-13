@@ -177,6 +177,15 @@ body {
 
 .box6-1, .box6-2, .box6-3 {padding-bottom: 10px;}
 
+/* 359px以下 */
+@media (max-width: 359px) {
+
+/* サイト名のスタイルです。 */
+.site img {width: 225px;
+			height: auto;}
+
+}
+
 /* 599px以下 */
 @media (max-width: 599px) {
 
@@ -192,6 +201,27 @@ body {
 
 /* ブラウザ横のサイズが767px以下の設定です。 */
 @media (max-width: 767px) {
+
+/* トグルボタンのスタイルです。 */
+#menubtn {padding: 6px 12px;
+			border: solid 1px #aaaaaa;
+			border-radius: 5px;
+			background-color: #ffffff;
+			position: absolute;
+			top: 20px;
+			right: 15px;
+			cursor: pointer;}
+
+#menubtn:hover {background-color: #dddddd;}
+
+#menubtn:focus {outline: none;}
+
+#menubtn span {display: inline-block;
+				text-indent: -9999px;}
+
+#menubtn i {color: #888888;
+			font-size: 18px;}
+
 /* ナビゲーションメニュー(縦並び)のスタイルです。 */
 #menu {display: none;}
 
